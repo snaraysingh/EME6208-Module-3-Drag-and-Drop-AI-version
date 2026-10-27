@@ -11,25 +11,25 @@ const ACTORS = [
   {
     id: 'idris',
     name: 'Idris Elba',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80',
+    image: 'Idris_Elba.jpg',
     titles: ['Cats', 'Troilus and Cressida', 'Mandela']
   },
   {
     id: 'hugh',
     name: 'Hugh Jackman',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300&auto=format&fit=crop&q=80',
+    image: 'Hugh_Jackman.jpg',
     titles: ['The Boy from Oz', 'Les Misérables', 'The Greatest Showman']
   },
   {
     id: 'viola',
     name: 'Viola Davis',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&auto=format&fit=crop&q=80',
+    image: 'Viola_Davis.jpg',
     titles: ['Seven Guitars', 'The Woman King', 'Ma Rainey’s Black Bottom']
   },
   {
     id: 'cynthia',
     name: 'Cynthia Erivo',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80',
+    image: 'Cynthia_Erivo',
     titles: ['The Color Purple', 'Sister Act', 'Harriet']
   },
   {
