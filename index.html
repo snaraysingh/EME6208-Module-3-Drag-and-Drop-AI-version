@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>From Broadway to Hollywood: The Triple Threat</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@500;700;800&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Cinema Spotlights -->
+  <div class="spotlight spotlight-left"></div>
+  <div class="spotlight spotlight-right"></div>
+
+  <!-- Header Cinema Marquee -->
+  <header>
+    <div class="marquee-lights">
+      <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
+      <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
+      <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
+      <div class="bulb"></div><div class="bulb"></div>
+    </div>
+    <h1>THE TRIPLE THREAT</h1>
+    <div class="subtitle">From Broadway Stage to Hollywood Biopic Glory</div>
+  </header>
+
+  <!-- Dashboard Bar -->
+  <div class="dashboard">
+    <div class="stat-box">
+      <span class="stat-label">SCORE</span>
+      <span id="scoreDisplay" class="stat-val">0</span>
+    </div>
+    <div class="host-banner">
+      <span>🎙️ Host:</span>
+      <span id="hostMessage">"Place 3 correct films for each actor!"</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-label">TIME</span>
+      <span id="timerDisplay" class="stat-val">180</span>
+    </div>
+  </div>
+
+  <!-- 6 Actor Columns -->
+  <main id="actorColumns"></main>
+
+  <!-- Word Bank Tray -->
+  <div class="word-bank-wrap">
+    <div class="word-bank-title">
+      <span>🎬 PRODUCTION WORD BANK (DRAG & DROP TO ACTOR)</span>
+      <span id="bankCount">24 TITLES</span>
+    </div>
+    <div class="word-bank" id="wordBank"></div>
+  </div>
+
+  <!-- "TRY AGAIN" Popup Toast -->
+  <div id="toastPopup" class="toast-popup">TRY AGAIN! ❌</div>
+
+  <!-- Game Intro & Encore Modal -->
+  <div id="gameModal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="cinema-reel-icon">🎬🍿🎭</div>
+      <h2 id="modalTitle">THE CURTAIN RISES!</h2>
+      <p id="modalDesc">
+        Can you identify Broadway hits, stage dramas, and acclaimed biopics for all 6 acting legends?
+        <br><br>
+        <strong>Rules:</strong> Drag 3 correct productions under each actor. Watch out for decoys!
+      </p>
+      <button id="modalActionBtn" class="btn-encore">CURTAIN CALL!</button>
+    </div>
+  </div>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
